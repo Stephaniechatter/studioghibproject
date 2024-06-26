@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avant Garde', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+section.secondary {
+    background-color: #f8f8f8;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 30px;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-2-columns div {
+    padding: 20px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-3-column-grid-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
+.instagram-embed {
+    margin: 30px 0;
+}
+
+.card {
+    background-color: #fff;
+    margin: 30px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #272044;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.card:hover h4 {
+    color: #4c3d4e;
+}
+
+.card h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 36px;
+    color: #272044;
+    margin: 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #462cb3;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5f47c1;
+}
+
+
+.card .btn:hover {
+    background-color: #5f47c1;
+}
+
+
+.card-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/header.jpg");
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/header.avif");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+header a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #fff;
+    text-decoration: none;
+    color: #272044;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #4c3d4e;
+    color: #fff;
+}
+
+
+main {
+    background-color: #fff;
+    padding: 40px;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: #272044;
+    opacity: 0.3;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: #272044;
+    margin: 0;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #272044;
+    opacity: 0.7;
+}
+
+footer {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/footerimg.jpg");
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/footerimg.jpg");
+    background-color: #272044;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #fff;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        padding: 60px 0;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header h3 {
+        font-size: 12px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+    section {
+        padding: 30px;
+    }
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.movie-details {
+    padding: 20px;
+}
+
+.movie-details h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.movie-card:hover .movie-details h4 {
+    color: #4c3d4e;
+}
+
+.movie-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.movie-details h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4c3d4e;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5e5060;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 600px) {
+    .movies-grid {
+        grid-template-columns: 1fr;
+    }
+    .embed {
+        aspect-ratio: 16 / 9;
+    }
+}
