@@ -15,7 +15,19 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+.container, section {
+    max-width: 100%;
+    overflow-x: hidden; 
+}
 
+@media screen and (max-width: 960px) {
+    .grid {
+        grid-template-columns: 1fr; 
+    }
+    section {
+        padding: 30px 20px; 
+    }
+}
 .text-center {
     text-align: center;
 }
