@@ -133,9 +133,9 @@ section.secondary {
 
 header {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/header.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("headerandfooterfolder/header.avif");
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/header.avif");
+    
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,9 +225,9 @@ main p {
 
 footer {
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/footerimg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("headerandfooterfolder/footerimg.jpg");
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../headerandfooter folder/footerimg.jpg");
+   
     background-color: #272044;
     background-repeat: no-repeat;
     background-size: cover;
